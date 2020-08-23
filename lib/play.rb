@@ -36,4 +36,9 @@ def turn(board)
 end
 
 def play(board)
+m = o
+while m < 9 
+  m += 1
+  turn(board)
+end
 end
